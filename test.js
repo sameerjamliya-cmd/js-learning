@@ -106,7 +106,7 @@ my_user.greeting = function(){
     console.log(`Hello my name is ${this.name} and my email is ${this.email} and I am ${this.age} years old from ${this.location}`);
 }
 console.log(my_user.greeting())*/
-const tinder_user = {}
+/*const tinder_user = {}
 tinder_user.name = "sameer"
 tinder_user.age = 24
 tinder_user.email = "sameerjamliya@gmail.com"
@@ -124,10 +124,50 @@ tinder_user.isloggedin = false
 //console.log(new_user.name.first_name);
 //console.log(Object.keys(tinder_user));
 //console.log(typeof Object.values(tinder_user));
-const {name:n,age ,email}=tinder_user
-console.log(n);
-console.log(age);
-console.log(email);
+//const {name:n,age ,email}=tinder_user
+//console.log(n);
+//console.log(age);
+//console.log(email)
+
+function saymyname(){
+    console.log("Hello my name is Sameer");
+    
+    
+}
+saymyname()
+function sumtwo(num1,num2){
+    return num1+num2
+} 
+const mysum = sumtwo(5,10)
+console.log(mysum);
+function msg_user(user_name){
+    if(!user_name){
+        console.log("pls enter your name");
+        return
+        
+    }
+    return `${user_name} logged in successfully`}
+
+   
+ console.log(msg_user("kratika"));
+
+const tinder_user = {}
+tinder_user.name = "sameer"
+tinder_user.age = 24
+tinder_user.email = "sameerjamliya@gmail.com"
+tinder_user.isloggedin = false 
+function object_user(obj){
+    console.log(`User name is ${obj.name} and age is ${obj.age} and email is ${obj.email} and is logged in : ${obj.isloggedin}`)}
+
+
+object_user(tinder_user) 
+const myarr = [1,2,3,4,5,6,7,8,9]
+
+
+
+    
+
+
 
 
 
