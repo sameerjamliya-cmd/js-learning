@@ -129,7 +129,7 @@ tinder_user.isloggedin = false
 //console.log(age);
 //console.log(email)
 
-function saymyname(){
+/*function saymyname(){
     console.log("Hello my name is Sameer");
     
     
@@ -162,6 +162,45 @@ function object_user(obj){
 
 object_user(tinder_user) 
 const myarr = [1,2,3,4,5,6,7,8,9]
+function one(){
+    const username = "sameer"
+    function two(){
+        const greet = "hello world"
+        console.log(`${greet} ${username}`);
+    }
+    //console.log(greet)
+    two()
+}
+const one_obj={
+    username : "sameer",
+    greet : "hello world",
+    two : function(){
+        console.log(`${this.greet} ${this.username}`);
+    }
+}
+one_obj.two()*/
+/*const arrow_func = ()=>{
+    user_name = "sameer"
+    console.log(this.user_name);
+    
+}
+arrow_func()
+const sum_two = (numm1 , num2) =>  (numm1 + num2)
+   
+
+console.log(sum_two(33,44));*/
+(function chai(){
+    console.log("u are connected");
+    
+}
+)();
+( (name) => {
+    console.log(`u are again connected ${name}`);
+    
+
+})(`sameer`);
+
+
 
 
 
