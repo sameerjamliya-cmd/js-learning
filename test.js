@@ -43,7 +43,7 @@ console.log(newname1);
 
 const sentence = "The quick brown fox jumps over the lazy dog.";
 
-let index = 5;
+let i = 5;
 
 console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 // Expected output: "An index of 5 returns the character u"
@@ -189,7 +189,7 @@ const sum_two = (numm1 , num2) =>  (numm1 + num2)
    
 
 console.log(sum_two(33,44));*/
-(function chai(){
+/*(function chai(){
     console.log("u are connected");
     
 }
@@ -199,6 +199,178 @@ console.log(sum_two(33,44));*/
     
 
 })(`sameer`);
+const month = 13
+switch (month) {
+    case 1:
+        console.log("January");
+        break;
+    case 2:
+        console.log("February");
+        break;
+    case 3:
+        console.log("March");
+        break;
+    case 4:
+        console.log("April");
+        break;
+    case 5:
+        console.log("May");
+        break;
+    case 6:
+        console.log("June");
+        break;
+    case 7:
+        console.log("July");
+        break;
+    case 8:
+        console.log("August");
+        break;
+    case 9:
+        console.log("September");
+        break;
+    case 10:
+        console.log("October");
+        break;
+    case 11:
+        console.log("November");
+        break;
+    case 12:
+        console.log("December");
+        break;
+        
+    
+
+    default:
+        break;
+}*/
+/*for (let i = 0; i <= 10; i++) {
+    const element = i;
+    console.log(`outer loop ${element}`);
+    
+    for (let j = 0; j <= 10; j++) {
+        const element =  j;
+        console.log(element);
+        
+        
+    }
+    
+    
+}*/
+/*for (let i = 0; i < 11; i++) {
+    if (i===5) {
+        console.log(`5 is detected`);
+        break;}
+    console.log(i);
+        
+   
+    
+}
+for (let i = 0; i < 11; i++) {
+    if (i===5) {
+        console.log(`5 is detected`);
+        continue;}
+    console.log(i);
+        
+   
+    
+}*/
+/*let dcheroes = ["batman","superman","flash","aquaman","wonderwoman"]
+let arr = 0
+while (arr < dcheroes.length) {
+    console.log(dcheroes[arr]);
+    arr++;
+}*/
+/*let score =1 
+do {
+    console.log(`your score is ${score}`);
+    score++
+    
+} while (score<=10);
+let myarr = [1,2,3,4,5,6,7,8,9]
+for (const num of myarr) {
+    console.log(num);
+    
+}*/
+/*const map = new Map()
+map.set("name","sameer")
+map.set("age",24)
+map.set("email","sameerjamliya@gmail.com")
+for (const [key, value] of map) {
+    console.log(`Key is ${key} and value is ${value}`);
+
+    
+}*/
+/*const myobj ={
+    name: "sameer",
+    age: 24,
+    email: "sameerjamliya@gmail.com",
+    City : "indore",
+    state : "madhyapradesh",
+
+}
+for (const key in myobj) {
+    console.log(`${key} : ${myobj[key]}`);
+    
+    
+    
+}
+const map = new Map()
+map.set("name","sameer")
+map.set("age",24)
+map.set("email","sameerjamliya@gmail.com")
+for (const key in map) {
+    console.log(key);
+    
+    
+    
+}
+for (const key in object) {
+    if (!Object.hasOwn(object, key)) continue;
+    
+    const element = object[key];
+    
+    
+}*/
+/*const myarr = [1,2,3,4,5,6,7,8,9]
+myarr.forEach((num)=>{
+    console.log(num);
+
+})
+function printnum(num){
+    console.log(num);
+    
+}
+myarr.forEach(printnum)*/
+/*const arrobj=[
+    {name:"sameer",age:24},
+    {name:"kratika",age:22},
+    {name:"jamliya",age:26}
+
+]
+arrobj.forEach((obj)=>{
+    console.log(`name is ${obj.name} and age is ${obj.age}`);
+    
+    
+})*/
+/* myarr= [1,2,3,4,5,6,7,8,9]
+const newarr = myarr.filter((num)=> num>5)
+console.log(newarr);
+const newrr1=[]
+myarr.forEach((num)=>{
+    if (num>5) {
+        newrr1.push(num)
+        
+    }})
+    console.log(newrr1);*/
+
+const myarr= [1,2,3,4,5,6,7,8,9]
+const newarr= myarr.reduce((acc,vals)=>acc+vals,2)
+console.log(newarr);
+
+              
+
+
+    
 
 
 
