@@ -363,9 +363,11 @@ myarr.forEach((num)=>{
     }})
     console.log(newrr1);*/
 
-const myarr= [1,2,3,4,5,6,7,8,9]
+/*const myarr= [1,2,3,4,5,6,7,8,9]
 const newarr= myarr.reduce((acc,vals)=>acc+vals,2)
-console.log(newarr);
+console.log(newarr);*/
+
+
 
               
 
